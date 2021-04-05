@@ -1,13 +1,10 @@
-FROM python:alpine3.6
-MAINTAINER Greger Wedel<greger@greger.io>
+FROM python:3.7.10
 
 WORKDIR /src/
 COPY . /src/
 
 # Cache this
-RUN apk update \
-    && apk add --no-cache -u build-base linux-headers \
-    libffi-dev libressl-dev
+RUN apt-get update
 RUN pip install --upgrade pip pipenv
 
 RUN pipenv install --system --dev --ignore-pipfile

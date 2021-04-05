@@ -8,14 +8,13 @@ cryptography = "*"
 pyjwt = ">=1.6.1"
 
 [dev-packages]
-prospector = "*"
+prospector = "==1.2.0"
 pytest = "*"
 twine = "*"
 sphinx = "*"
 recommonmark = "*"
-pylint = "*"
 keyring = "*"
 jeepney = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"

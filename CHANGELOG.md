@@ -1,5 +1,13 @@
 # CHANGELOG
 
+Apr 5, 2021
+------------
+
+- Bump version to 1.2.2
+- Upgrade all libs and dependencies to python 3.7.10 (cryptography supports only 3.7.*)
+- Moved from alpine image to regular python docker image to reduce cryptography issues in alpine
+- Removed unsupported pytest path param from ini
+
 Dec 22, 2019
 ------------
 

@@ -1,5 +1,5 @@
 # !/usr/bin/env python
-__version__ = "1.2.1"
+__version__ = "1.2.2"
 
 from setuptools import setup
 
@@ -23,8 +23,8 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
     py_modules=['api_jwt', ],
     install_requires=[
